@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('admin-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    justify-content: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.dashboard-title {
+    font-size: 3em;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
+}
+
+.user-detail {
+    font-size: 3em;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
+}
+
+
+
+/* Back Button Styling */
+/* Back Button Styling */
+.back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    /* Blue Button */
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    /* Darker Blue on Hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Center the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    /* Dark background with transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+    padding: 10px;
+    background-color: #007BFF;
+    /* Blue Button */
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+    /* Darker Blue on Hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Success/Error Messages */
+.success-message,
+.error-message {
+    background-color: rgba(45, 44, 44, 0.8);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 450px;
+}
+
+.success-message h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.error-message h2 {
+    color: #f44336;
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #1976D2;
+}
+
+/* Styling for the results table */
+.results-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #50a1db;
+}
+
+.results-table th {
+    background-color: #408bd2;
+}

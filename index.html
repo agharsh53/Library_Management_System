@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management System - Login</title>
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('library-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent overlay */
+        }
+        .login-box {
+            background: rgb(170, 195, 216);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+        .login-box img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .login-box h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .login-box input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .login-box button {
+            width: 82%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #2d97a5;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-box button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+       <div class="login-box">
+          <img src="user-icon.png" alt="User Icon">
+          <h2>Library Login</h2>
+          <form action="LoginAction.jsp" method="post">
+            <label>Username or Email:</label>
+            <input type="text" name="username" required><br><br>
+            <label>Password:</label>
+            <input type="password" name="password" required><br>
+            <label>User Type:</label>
+            <select name="userType">
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+            </select><br><br>
+            <button type="submit">Login</button>
+          </form>
+        </form>
+        <p>Create an new account? </p>
+        <form action="signup.jsp" method="get">
+             <button type="submit">Signup</button>
+        </form>
+       </div>
+    </div>
+</body>
+</html>
