@@ -64,7 +64,7 @@ CREATE TABLE borrowed_books (
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/library-management-system.git
+git clone https://github.com/agharsh53/library-management-system.git
 ```
 
 ### Step 2: Import Project
@@ -108,5 +108,5 @@ This project is licensed under the **MIT License**.
 ---
 
 ## Maintainer
-- **Name:** Your Name  
-- **Email:** your-email@example.com
+- **Name:** Harsh Kumar Agrawal 
+- **Email:** agrawalharsh2653@gmail.com
