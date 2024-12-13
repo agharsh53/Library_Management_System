@@ -95,7 +95,7 @@ git clone https://github.com/agharsh53/library-management-system.git
 ### **Admin Dashboard**
 ![Student Dashboard](snapshots/student_dashboard.png)
 
-### **Borrow Book Feature**
+### **Admin Dashboard Feature**
 ### **Add Book Page**
 ![Add Book](snapshots/addBook_page.png)
 
@@ -121,6 +121,13 @@ git clone https://github.com/agharsh53/library-management-system.git
 
 ### **Logout Page**
 ![Logout page](snapshots/logout_page2.png)
+
+## Project Snapshots
+
+| Login Page              | Admin Dashboard        | Book Management        | Borrow Book         |
+|------------------------|-------------------------|------------------------|---------------------|
+| ![Login](snapshots/login_page.png) | ![Admin](snapshots/admin_dashboard.png) | ![Add Book](snapshots/addBook_page.png) | ![Issue Book](snapshots/issueBook_page.png) |
+
 ---
 
 ## Contributions
