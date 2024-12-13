@@ -96,37 +96,23 @@ git clone https://github.com/agharsh53/library-management-system.git
 ![Student Dashboard](snapshots/student_dashboard.png)
 
 ### **Admin Dashboard Feature**
-### **Add Book Page**
-![Add Book](snapshots/addBook_page.png)
 
-### **Update Book Page**
-![Update Book](snapshots/updateBook_page.png)
+| Add Book Page              | Update Book Page        | Delete Book Page        |
+|------------------------|-------------------------|------------------------|
+| ![Add Book](snapshots/addBook_page.png) | ![Update Book](snapshots/updateBook_page.png) | ![Delete Book](snapshots/deleteBook_page.png) |
 
-### **Delete Book Page**
-![Delete Book](snapshots/deleteBook_page.png)
+| Issue Book Page              | Return Book Page       | 
+|------------------------|-------------------------|
+| ![Issue Book](snapshots/issueBook_page.png) | ![Return Book](snapshots/returnBook_page.png) |
 
-### **Issue Book Page**
-![Issue Book](snapshots/issueBook_page.png)
-
-### **Return Book Page**
-![Return Book](snapshots/returnBook_page.png)
 
 ### **Student Dashboard Feature**
-#### **View Books**
-![View Books](snapshots/viewBook_page.png)
-#### **Search Books**
-![Search Book](snapshots/searchBook_page.png)
-#### **View Profile**
-![View Profile](snapshots/viewProfile_page.png)
+| View Books              | Search Books       | View Profile        |
+|------------------------|-------------------------|------------------------|
+| ![View Books](snapshots/viewBook_page.png) | ![Search Book](snapshots/searchBook_page.png) | ![View Profile](snapshots/viewProfile_page.png) |
 
 ### **Logout Page**
 ![Logout page](snapshots/logout_page2.png)
-
-## Project Snapshots
-
-| Login Page              | Admin Dashboard        | Book Management        | Borrow Book         |
-|------------------------|-------------------------|------------------------|---------------------|
-| ![Login](snapshots/login_page.png) | ![Admin](snapshots/admin_dashboard.png) | ![Add Book](snapshots/addBook_page.png) | ![Issue Book](snapshots/issueBook_page.png) |
 
 ---
 
