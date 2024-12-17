@@ -121,11 +121,6 @@ Contributions are welcome! Please fork this repository, create a new branch, and
 
 ---
 
-## License
-This project is licensed under the **MIT License**.
-
----
-
 ## Maintainer
 - **Name:** Harsh Kumar Agrawal 
 - **Email:** agrawalharsh2653@gmail.com
